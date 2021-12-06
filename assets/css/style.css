@@ -1,0 +1,126 @@
+.header {
+    color: white;
+    font-weight: bold;
+}
+
+.headerDiv {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #04AA6D;
+    text-align: center;
+}
+
+input[type=text],
+[type=number] {
+    padding: 12px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.file {
+    float: left;
+    margin-left: 25%;
+}
+
+.container {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#addNewBookButton {
+    background-color: #0069D9;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#updateButton {
+    background-color: #138496;
+    border: none;
+    color: White;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #C82333;
+    border: none;
+    color: White;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.error {
+    float: left;
+    color: red;
+}
+
+#booksTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#booksTable td, #booksTable th {
+    border: 1px solid #ddd;
+    width: 33.33%;
+    padding: 8px;
+}
+
+#booksTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#booksTable tr:hover {
+    background-color: #ddd;
+}
+
+#booksTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#searchBoxDiv {
+    display: inline;
+    width: 50%;
+    float: left;
+    text-align: left
+}
+
+#addNewBookButtonDiv {
+    display: inline;
+    float: right
+}
